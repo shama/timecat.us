@@ -36,7 +36,6 @@ setTimeout(function() {
   writeIt()
 }, 400)
 
-
 // Fix for browser-terminal
 term._reposition = function() {
     if (!this._termStyle) return;
@@ -108,7 +107,6 @@ module.exports = function(args) {
       start = Date.now()
     } else {
       var diff = Date.now() - start
-      diff = (4 * 60 * 1000) + 1230
       var minutes = 0
       if (diff > 1000) {
         minutes = Math.floor(diff / 1000 / 60).toFixed()
