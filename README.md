@@ -25,7 +25,7 @@ DIFFICULTY SELECT
     * chronos bast -- 97.000 seconds
 
 AUTHOR
-    This game was invented by <a href="https://twitter.com/maxogden">Max Ogden</a> at <a href="http://nodeconf.com">nodeconf</a>.
+    This game was invented by Max Ogden at nodeconf.
 
-    This website was created by <a href="https://twitter.com/shamakry">shama</a> and it is <a href="https://github.com/shama/timecat.us">open source on github</a>.
+    This website was created by shama and it is open source on github.
 ```
