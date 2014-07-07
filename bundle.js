@@ -19,8 +19,11 @@ var sh = bashful({
 });
 var term = terminal().appendTo('#terminal')
 term.pipe(sh.createStream()).pipe(term)
-
 window.addEventListener('keydown', term.keydown)
+
+// disable cursor blink
+term._cursorMoved = function() {}
+term._cursor.className = 'cursor'
 
 var startText = 'man time cat'.split('')
 function writeIt() {
