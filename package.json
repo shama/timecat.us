@@ -1,0 +1,22 @@
+{
+  "name": "timecat.us",
+  "version": "0.1.0",
+  "description": "time cat",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js:bundle.js 8080 -- -d",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "browserify": "^4.2.0"
+  },
+  "dependencies": {
+    "bashful": "^1.8.0",
+    "browser-terminal": "0.0.2",
+    "nextback": "^0.1.0",
+    "through": "^2.3.4"
+  }
+}
