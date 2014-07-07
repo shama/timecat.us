@@ -30,3 +30,7 @@ strong {
   width: 100%;
   padding: 10px 15px 10px 15px;
 }
+.cursor {
+  color: #000;
+  background-color: #fff;
+}
