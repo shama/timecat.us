@@ -28,7 +28,10 @@ strong {
   bottom: 0px;
   right: 0px;
   width: 100%;
+}
+#terminal > div {
   padding: 10px 15px 10px 15px;
+  height: 100%;
 }
 .cursor {
   color: #000;
