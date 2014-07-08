@@ -27,6 +27,10 @@ DIFFICULTY SELECT
     * hard         -- 13.000 seconds
     * chronos bast -- 97.000 seconds
 
+SEE ALSO
+    npm install time-cat -g on your computer to play a near
+    impossible nanosecond precision version of time cat.
+
 AUTHOR
     This game was invented by Max Ogden at nodeconf.
 
